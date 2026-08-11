@@ -1,0 +1,5 @@
+services:
+  web:
+    environment:
+      DTB_IPS: ${DTB_IPS:-default}
+      DTB_XFF: ${DTB_XFF:-0}
